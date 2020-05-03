@@ -1,0 +1,43 @@
+.Form {
+    width: 100%;
+}
+
+.Form h1 {
+    text-align: center;
+}
+
+.formDiv {
+    width: 100%;
+    text-align: center;
+}
+
+.Form input {
+    width: 70%;
+    font-size: 20px;
+    padding: 15px;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    background: #f9f6f7;
+}
+
+.Form button {
+    font-weight: 700;
+    text-align: center;
+    width: 15%;
+    font-size: 25px;
+    padding: 12.5px;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 378px){
+    .Form input {
+        padding: 12px;
+    }
+    .Form button {
+        padding: 10px;
+    }
+}
